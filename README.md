@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📈 Crypto-Pulse
+Crypto-Pulse — это динамичное веб-приложение для отслеживания курсов криптовалют в реальном времени. Проект сочетает в себе высокую производительность Next.js и строгую типизацию данных для надежной работы с финансовыми показателями.
 
-## Getting Started
+🛠 Технологический стек
+Framework: Next.js (App Router)
 
-First, run the development server:
+Language: TypeScript (строгая типизация через интерфейсы в types/coin.ts)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Styling: Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Components: Модульная архитектура React
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ Особенности проекта
+Skeleton Loading: Использование компонента SkeletonCard для улучшения UX во время загрузки данных из API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Real-time Data: Оптимизированная отрисовка данных криптовалют.
 
-## Learn More
+Responsive Design: Полная адаптивность интерфейса благодаря утилитарным классам Tailwind.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clean Code: Проверка кода через ESLint и строгие настройки TypeScript.
